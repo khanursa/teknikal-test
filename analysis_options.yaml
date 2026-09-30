@@ -1,0 +1,38 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/generated/**"
+  errors:
+    todo: ignore
+    fixme: ignore
+    invalid_annotation_target: ignore
+    implementation_imports: ignore
+    annotate_overrides: ignore
+    avoid_print: ignore
+    constant_identifier_names: ignore
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    use_setters_to_change_properties: false
+    avoid_function_literals_in_foreach_calls: false
+    avoid_classes_with_only_static_members: false
+    file_names: false
+    depend_on_referenced_packages: false
+    require_trailing_commas: true
+    noop_primitive_operations: false
+    prefer_const_constructors: true
+    flutter_style_todos: true
+    always_declare_return_types: false
+    sort_child_properties_last: true
+    sort_pub_dependencies: false
+    directives_ordering: false
+    prefer_final_locals: true
+    use_key_in_widget_constructors: false
+    avoid_relative_lib_imports: false
+    prefer_relative_imports: false
+    always_use_package_imports: true
+    avoid_print: true

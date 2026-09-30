@@ -1,0 +1,41 @@
+{
+  "debug.openDebug": "openOnDebugBreak",
+  "dart.lineLength": 150,
+  "editor.formatOnSave": true,
+  "dartimportsorter.leaveEmptyLinesBetweenGroups": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "onlySnippets",
+  "editor.wordBasedSuggestions": "off",
+  "editor.rulers": [
+    150
+  ],
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.rulers": [
+      150
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "never"
+    },
+    "editor.guides.bracketPairs": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "files.watcherExclude": {
+    "**/build/**": true,
+    "**/android/**": true,
+    "**/ios/**": true,
+    "/*.g.dart": true,
+    "/*.freezed.dart": true
+  }
+}
